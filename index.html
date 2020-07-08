@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <script>
+    'use strict;'
+    for (var count = 1; count < 21; count++) {
+  if (count % 3 === 0 && count % 5 === 0) {
+    document.body.innerHTML += 'FizzBuzz<br>';
+  } else if (count % 3 === 0) {
+    document.body.innerHTML += 'Fizz<br>';
+  } else if (count % 5 === 0) {
+    document.body.innerHTML += 'Buzz<br>';
+  } else {
+    document.body.innerHTML += count + '<br>';
+  }
+}
+  </script>
+</body>
+</html>
